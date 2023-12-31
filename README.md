@@ -8,7 +8,7 @@ We have used neighboring list structure as the input file for algorithm. The exe
 Everything is built to run the algorithm (such as pathes to folders and files) and it is only needed to put the extracted folders of: "datasets","groundtruth" in one folder with the source code.
 
 To execute algorithm jupyter notebook or any other platform which runs python can be used. The main configurations of LMFLS are as follows:
-
+```
 # ---------------------- Configurations -------------------
 dataset_name = "karate"# name of dataset
 path = "datasets/" + dataset_name + ".txt" # path to dataset
@@ -19,7 +19,7 @@ merge_flag = 1        # merge_flag=0 -> do not merge ////  merge_flag=1 -> do me
 modularity_flag = 1   # 1 means calculate modularity. 0 means do not calculate modularity
 NMI_flag = 1          # 1 means calculate NMI. 0 means do not calculate NMI
 # ---------------------------------------------------------
-
+```
 Names of datasets are as follows and are available in "datasets" folder.
 Datasets:
 
